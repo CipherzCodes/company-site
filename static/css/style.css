@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Horizontal centering */
+    align-items: center;      /* Vertical centering */
+    background-color: #060a15;
+}
+
+.aihuman{
+    padding: 100px;
+    max-width: 100%;  /* Ensures the image fits within the viewport */
+    height: auto;     /* Maintains aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
